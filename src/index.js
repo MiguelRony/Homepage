@@ -10,6 +10,8 @@ import project6 from './utils/images/project6.jpg';
 
 const header = document.querySelector('header');
 const img = header.querySelector('img');
+const footer = document.querySelector('footer');
+const footerImg = footer.querySelector('img');
 const projectImages = document.querySelectorAll('.projectImage');
 const images = [project1, project2, project3, project4, project5, project6];
 img.src = dogImg;
@@ -17,3 +19,5 @@ img.src = dogImg;
 projectImages.forEach((projectImage, index) => {
     projectImage.src = images[index];
 });
+
+footerImg.src = dogImg;
