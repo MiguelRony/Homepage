@@ -69,7 +69,7 @@ main{
 }
 
 main p{
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -201,6 +201,10 @@ footer img{
 
     .about{
         display: block;
+    }
+
+    main p{
+        margin-top: 200px;
     }
 
     .img{
